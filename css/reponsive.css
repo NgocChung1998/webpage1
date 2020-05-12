@@ -10,6 +10,13 @@
 
 /* Moblie */
 @media (max-width: 739px){
+    .sec{
+        position: absolute;
+        display: block;
+        margin-top: 2rem;
+        color: white;
+        margin-left: 2rem;
+    }
     .navbar-background.fix-top {
         display: flex;
         justify-content: space-between;
@@ -19,12 +26,15 @@
     .navbar-background {
         height: 56px;
     }
+  
 
     .nav-toggle {
         display: block !important;
         margin-top: 12px;
         right: 3.2rem;
         position: absolute;
+        margin-left: 43rem;
+       
     }
 
     .nav-toggle-bar {
@@ -48,7 +58,9 @@
     .navbar-slider-buttom__capital {
          display: none;
     }
-    
+    .navbar_buttom{
+        margin: 0 auto;
+    }
     .navbar-slider-buttom__invest {
         display: block;
         color: #B1DBDA;
@@ -133,15 +145,31 @@
 
     /* Invest */
     .contact {
+        /* height: 100%; */
         flex-direction: column;
         display: flex;
         align-items: center;
+        justify-content:center;
     }
 
     .contact__link {
-        margin-top: 38px;
+        /* display: inline-block; */
+      margin-bottom: 30px;
+        
+      
     }
-
+    
+    .cl4{
+        margin-top: 40px;
+    }
+    .cl3{
+        /* margin-top: 10px; */
+        margin-bottom: 60px;
+    }
+    .cl2{
+        margin-bottom: 90px;
+    }
+   
     .contact-slider {
         height: auto;
     }
@@ -179,4 +207,21 @@
     .navbar-slider__bottom-img img {
         width: 100%;
     }
+    .partner-contain__logo{
+        margin:0 11rem;
+    }
+   .expanded ul li a{
+       text-decoration: none;
+       color: white;
+       width: 100%;
+       display: block;
+       background-color: #B1DBDA;
+   }
+   .expanded ul{
+       margin: 0;
+       width: 100%;
+   }
+   .footer-contain__link{
+       text-align: center;
+   }
 }

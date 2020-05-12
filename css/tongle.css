@@ -63,7 +63,7 @@
 
 .nav-toggle .nav-toggle-bar { margin-top: 0; }
 
-.nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }
+.nav-toggle .nav-toggle-bar::after { margin-top: 1.2rem; }
 
 .nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }
 

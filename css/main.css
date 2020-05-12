@@ -382,6 +382,7 @@
 }
 
 .contact__link {
+  /* position: relative; */
   text-decoration: none;
   border: 1px solid #dedede;
   border-radius: 8px;
@@ -390,6 +391,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: white;
+  cursor: pointer;
+}
+.contact__link:nth-child(1):hover{
+    height: 220px;
 }
 .contact__link:nth-child(2){
   margin-top: -2rem;
@@ -618,4 +624,7 @@
 }
 .cl1{
   margin-top: -4rem;
+}
+.ytp-cued-thumbnail-overlay-image{
+  background-size: contain !important;
 }
